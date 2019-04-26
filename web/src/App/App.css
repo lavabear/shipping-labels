@@ -1,0 +1,74 @@
+html, body {
+  background: #5f6163;
+}
+
+html, body, a, a:hover, .ui .header, .ui.form .field>label, .ui.checkbox label, .ui.checkbox+label {
+  color: white;
+}
+
+#root {
+  min-height: 90vh;
+}
+
+.ui.card.package {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+#price-check-button {
+  background: #0383be;
+  font-size: 2em;
+  margin: 0.5em;
+  margin-top: 0.25em;
+}
+
+.check-prices, .check-prices > .accordion > .title {
+  display: grid;
+}
+
+.check-prices {
+  max-width: 36em;
+  margin: auto;
+}
+
+.check-prices > .accordion > .title {
+  margin: 1em;
+}
+
+#root > div > div.check-prices > div > div.content.active > button {
+  margin-top: 1em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.App {
+  margin: 1em;  
+  text-align: center;
+  justify-content: center;
+  display: grid;
+}
+
+#root > div > div.ui.header.main-header {
+  font-size: 3rem; 
+}
+
+div.check-prices > div > div.content.active > form {
+  max-width: 30em;
+  margin: auto
+}
+
+#root > div > div.check-prices > div > .title > .ui.label {
+  font-size: 2em;
+}
+
+footer {
+  text-align: center;
+  padding-top: 1em;
+  font-size: 1.5em;
+  height: 4vh;
+  width: 100%;
+  z-index: 100;
+}

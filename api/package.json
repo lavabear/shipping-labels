@@ -1,0 +1,21 @@
+{
+  "name": "shipping-labels-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SHIPPO_KEY=shippo_test_7109cc745d31b215527f888153feb156ab239d67 node index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.4.8",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-type-json": "^0.3.0",
+    "paypal-rest-sdk": "^1.8.1",
+    "shippo": "^1.3.1"
+  }
+}
